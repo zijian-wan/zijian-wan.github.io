@@ -16,14 +16,14 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zijian-wan/zijian-wan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-seo_description          : "Site for Zijian Wan, Ph.D. student at UC Santa Barbara"
+seo_description          : "Site for Zijian Wan, Ph.D. student in Geography at UC Santa Barbara"
 words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               : 
   facebook:
     appid                :
     num_posts            : # 5 (default)
@@ -79,14 +79,12 @@ social:
 
 # Site Author
 author:
-  name             : "R. Stuart Geiger"
-  avatar           : "oban3.jpg"
-#  bio              : "Ethnographer of computation and computational ethnographer. <br> <br> Assistant Professor at UC San Diego: <ul><li><a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a></li> <li><a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a></li></ul>"
-#  bio              : "Ethnographer of computation and computational ethnographer. <br> <br> Assistant Professor at UC San Diego, in <ul> <li><a style="color: black;" href="http://communication.ucsd.edu">Department of Communication</a></li> <li><a style="color: black;" href="http://hdsi.ucsd.edu">Halıcıoğlu Data Science Institute</a></li> <li><a style="color: black;" href="http://ipe.ucsd.edu">Institute for Practical Ethics</a></li> </ul>"
-  bio              : "Ethnographer of computation and computational ethnographer <br> <br> Assistant Professor at UC San Diego, <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>"
-  location         : "Berkeley, CA"
+  name             : "Zijian Wan"
+  avatar           : 
+  bio              : "Ph.D. student in Geography at UC Santa Barbara"
+  location         : "Santa Barbara, CA"
   employer         : 
-  googlescholar    : "https://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en"
+  googlescholar    : 
   email            :
   uri              : 
   bitbucket        :
@@ -95,16 +93,16 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "staeiou"
+  github           : "zijian-wan"
   google_plus      :
   keybase          :
   instagram        : 
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0000-0001-7215-0532"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : *twitter
@@ -112,7 +110,6 @@ author:
   weibo            :
   xing             :
   youtube          :
-  # wikipedia        : "staeiou"
 
 
 # Reading Files
@@ -149,7 +146,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
